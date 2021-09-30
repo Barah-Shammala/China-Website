@@ -1,0 +1,28 @@
+.navbar-content{
+    padding-top: 100px;
+    background: rgba(0, 0, 0, .9)
+}
+.account-info{
+    border-radius: 10px;
+    padding: 15px 0;
+    border: 1px solid #6E6E6E;
+}
+.account-info ul li {
+    list-style: none;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list-active{
+    border-left: 5px solid #000;
+}
+.list{
+    color: #6E6E6E;
+}
+.balance-card{
+    border-radius: 10px;
+    background: #000;
+    padding: 10px 15px;
+    margin-top: 10px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}

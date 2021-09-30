@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <!-- Font Awesome Libary -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>China Website</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="download">
+            <div class="andriod down">
+                <img src="images/header/andrioed.png" alt="Andriod Image">
+            </div>
+            <div class="ios down">
+                <img src="images/header/ios.png" alt="IOS Image">
+            </div>
+        </div>
+        <div class="header-cover">
+            <div class="navbar-fixed">
+                <div class="container">
+                    <div class="row navbar">
+                     <div class="col-lg-3">
+                         <div class="logo">
+                             <img src="images/header/Whitelogo.png" alt="White Logo">
+                             <i class="fa fa-bars bar" ></i>
+                         </div><!-- ./logo -->
+                        
+                     </div>
+                     <div class="col-lg-9">
+                         <div class="nav-lsit">
+                             <ul>
+                                 <li><a href="index.html" class="active nav-list">Home</a></li>
+                                 <!-- Dropdown -->
+                                <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle nav-list" href="#" id="navbardrop" data-toggle="dropdown">
+                                    Product
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Data eSIM</a>
+                                </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle nav-list" href="#" id="navbardrop" data-toggle="dropdown">
+                                        Resources
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Blog</a>
+                                        
+                                    </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle nav-list" href="#" id="navbardrop" data-toggle="dropdown">
+                                            Help
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Tutorials</a>
+                                            <a class="dropdown-item" href="#">FAQ's </a>
+                                            <a class="dropdown-item" href="#">Contact Us</a>
+                                        </div>
+                                        </li>
+                                 <li>
+                                     <button  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">login</button>
+                                     <button  data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo">Sign up</button>
+                                </li>
+                              
+                                 <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle nav-notf" href="notfication.html" id="navbardrop" data-toggle="dropdown">
+                                        <i class="fa fa-bell notf"></i>
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <p class="dropdown-title">NOTIFICATIONS</p>
+                                        <p class="dropdown-new">New</p>
+                                        <a class="dropdown-item dropdown-not" href="notfication.html">
+                                            <img src="images/header/Group 27209.png" alt="">
+                                            <div class="not-text">
+                                                <p>Numero esim added new blog <br>
+                                                     lorem ipsum dolor sit  amet <br>, consectetur... </p>
+                                                <span>17 min ago</span>
+                                            </div>
+                                            <div>
+                                                <span class="point"></span>
+                                            </div>
+                                        </a>
+                                        <p class="dropdown-new">EARLIER</p>
+                                        <a class="dropdown-item dropdown-not" href="notfication.html">
+                                            <img src="images/header/Group 27209.png" alt="">
+                                            <div class="not-text">
+                                                <p>Numero esim added new blog <br>
+                                                     lorem ipsum dolor sit  amet <br>, consectetur... </p>
+                                                <span>17 min ago</span>
+                                            </div>
+                                            <div>
+                                                <span class="point"></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    </li>
+                             </ul>
+                         </div>
+                     </div>
+                    </div><!-- ./row -->
+                 </div><!-- ./coantainer heade navbar-->
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title login-mode-title" id="exampleModalLabel"> Email LOGIN </h5>
+                        <p>WeChat LOGIN</p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                        <div class="form-group">
+                            <i class="fa fa-envelope form-icon"></i>
+                            <input type="text" class="form-control" id="recipient-name" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <i class="fa fa-unlock-alt form-icon"></i>
+                            <input type="text" class="form-control" id="recipient-name" placeholder="Password">
+                        </div>
+                        <a href="#" class="forget-link">Forget Your Password?</a>
+                        <button class="btn-login">Login</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <p>New User? <span><a href="">Sign Up</a></span></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header model-header-sign">
+                            <h5 class="modal-title sign-model-title" id="exampleModalLabel"> SIGN UP </h5>
+                            
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="recipient-name" placeholder="First Name">
+                            </div>
+                            <div class="form-group">
+                                
+                                <input type="text" class="form-control" id="recipient-name" placeholder="Last Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="recipient-name" placeholder="E-mail">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="recipient-name" placeholder="+10 Enter your phone number">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="recipient-name" placeholder="Password">
+                            </div>
+                            
+                            <button class="btn-login">CREATE ACCOUNT</button>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <p>Already have an account?  <span><a href="">Sign in</a></span></p>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="container home-container">
+                <div class="row">
+                    <div class="home">
+                      <h1>Be Local Anywhere</h1>
+                      <button> <img src="images/header/Buy Data.png" alt="icon buy data"> Buy DATA Packages Now!</button>
+                      <div class="watch-video">
+                          <div class="video-coantrol">
+                                <i class="fa fa-play" data-toggle="modal" data-target="#exampleModal-watch"></i>
+                          </div>
+                          <p>Watch The  Video <br><span class="line"></span></p>
+                      </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                   
+  
+                    <!-- Modal -->
+                 <div class="modal fade" id="exampleModal-watch" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">How eSIM Work</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/cIf5GCv7sBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                    <img src="images/header/Control.png" alt="">
+                    </div>
+                </div>
+                </div>
+                 </div>
+                 </div>
+            </div><!-- contaienr header home -->
+        </div>
+    </header>
+    <!-- About Numero -->
+    <section class="about-numero">
+        <div class="container">
+           <div class="row">
+              
+                   <div class="col-md-11">
+                    <p><span>Numero eSIM</span>is an online store that provides complete and affordable communications solutions.</p>
+                   </div>
+                   <div class="col-md-1">
+                    <div class="chat">
+                        <img src="images/about-numero/wechat (1).png" alt="">
+                    </div>
+                   
+               
+           </div>
+         </div>
+        </div>
+    </section>
+    <!-- Our Product -->
+    <section class="our-peoduct">
+        <div class="container">
+            <div class="section-title">
+                <h4>OUR PRODUCTS</h4>
+                <span class="line"></span>
+                <span class="line line2"></span>
+            </div>
+            <div class="row">
+                
+                <div class="col-md-4">
+                    <div class="product-card">
+                       <div class="product-card-content">
+                        <div class="product-icon">
+                            <img src="images/our-products/Virtual-Phone- Numbers .png" alt="">
+                        </div>
+                        <p>Virtual Numbers</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card data-paln">
+                       <div class="product-card-content">
+                        <div class="product-icon">
+                            <img src="images/our-products/Data-plans.png" alt="">
+                        </div>
+                        <p>DATA plans</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card smsCall">
+                       <div class="product-card-content">
+                        <div class="product-icon">
+                            <img src="images/our-products/Path 16597.png" alt="">
+                        </div>
+                        <p>Calls and SMS</p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- History Snippent -->
+    <section class="history-snippent padding-y">
+        <div class="container">
+            <div class="section-title">
+                <h4>HISTORY SNIPPET</h4>
+                <span class="line"></span>
+                <span class="line line2"></span>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="history-text">
+                        <p>Numero eSIM as an international mobile app by a Spanish based company, Smarteletec, and was launched in globally on Google Play and Apple Store in 2018. It started as a virtual numbers app with voice services at low rates.</p>
+                        <p class="sec-parg">In 2019, it was one of the first telecom services to jump on the eSIM trend, and the only virtual numbers app that provides eSIM mobile data plans, making it a complete telecom solution that fully replicates a mobile network operator.     </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="history-image">
+                        <img src="images/histrory snippet/Capture0.png" alt="histrory snippet image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Statistics -->
+    <section class="stats padding-y">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="stats-cotent">
+                        <img src="images/stats/downloads.png" alt="downloads icon">
+                        <p class="timer stats-num" data-from="0" data-to="400000"
+                        data-speed="5000" data-refresh-interval="50" >4,000,000+</p>
+                        <p class="stats-text">Numbers of downloads</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stats-cotent">
+                        <img src="images/stats/Average-rating.png" alt="downloads icon">
+                        <p class="timer stats-num" data-from="0" data-to="5"
+                        data-speed="5000" data-refresh-interval="50" >4,000,000+</p>
+                        <p class="stats-text">Average rating</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stats-cotent">
+                        <img src="images/stats/Client-countries.png" alt="downloads icon">
+                        <p class="timer stats-num" data-from="0" data-to="100"
+                        data-speed="5000" data-refresh-interval="50" >4,000,000+</p>
+                        <p class="stats-text">Client countries</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stats-cotent">
+                        <img src="images/stats/Social-followers.png" alt="downloads icon">
+                        <p class="timer stats-num" data-from="0" data-to="45000"
+                        data-speed="5000" data-refresh-interval="50" >4,000,000+</p>
+                        <p class="stats-text">Social  followers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials padding-y">
+        <div class="container">
+            <div class="section-title">
+                <h4>TESTIMONIALS</h4>
+                <span class="line"></span>
+                <span class="line line2"></span>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row mb-5">
+                        <div class="col-md-6 my-5">
+                            <div class="testimonials-content">
+                                <div class="quote">
+                                    <img src="images/test/quote.png" alt="">
+                                </div>
+                                <p class="test-parg">working as a Tourist Guide requires constantsss travelling Numero eSIM Virtual mobile numbers </p>
+                                <p class="test-name">Aminul Islam</p>
+                                <p class="test-tag"> Theme Tags</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-5">
+                            <div class="testimonials-content">
+                                <div class="quote">
+                                    <img src="images/test/quote.png" alt="">
+                                </div>
+                                <p class="test-parg">working as a Tourist Guide requires constantsss travelling Numero eSIM Virtual mobile numbers </p>
+                                <p class="test-name">Aminul Islam</p>
+                                <p class="test-tag"> Theme Tags</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row  mb-5">
+                        <div class="col-md-6 my-5">
+                            <div class="testimonials-content">
+                                <div class="quote">
+                                    <img src="images/test/quote.png" alt="">
+                                </div>
+                                <p class="test-parg">working as a Tourist Guide requires constantsss travelling Numero eSIM Virtual mobile numbers </p>
+                                <p class="test-name">Aminul Islam</p>
+                                <p class="test-tag"> Theme Tags</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-5">
+                            <div class="testimonials-content">
+                                <div class="quote">
+                                    <img src="images/test/quote.png" alt="">
+                                </div>
+                                <p class="test-parg">working as a Tourist Guide requires constantsss travelling Numero eSIM Virtual mobile numbers </p>
+                                <p class="test-name">Aminul Islam</p>
+                                <p class="test-tag"> Theme Tags</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row  mb-5">
+                        <div class="col-md-6 my-5">
+                            <div class="testimonials-content">
+                                <div class="quote">
+                                    <img src="images/test/quote.png" alt="">
+                                </div>
+                                <p class="test-parg">working as a Tourist Guide requires constantsss travelling Numero eSIM Virtual mobile numbers </p>
+                                <p class="test-name">Aminul Islam</p>
+                                <p class="test-tag"> Theme Tags</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-5">
+                            <div class="testimonials-content">
+                                <div class="quote">
+                                    <img src="images/test/quote.png" alt="">
+                                </div>
+                                <p class="test-parg">working as a Tourist Guide requires constantsss travelling Numero eSIM Virtual mobile numbers </p>
+                                <p class="test-name">Aminul Islam</p>
+                                <p class="test-tag"> Theme Tags</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <!-- Download -->
+    <section class="Download-App padding-y">
+        <div class="container">
+            <div class="section-title">
+                <h4>Download App NOW</h4>
+                <span class="line"></span>
+                <span class="line line2"></span>
+            </div>
+            <div class="row">
+                <div class="col-md-6 my-2">
+                    <div class="Download-app">
+                        <div class="download-app-img">
+                            <img src="images/download/android-download.png" alt="">
+                        </div>
+                        <div class="Downalod-app-text">
+                            <p class="down-from">DOWNLOAD FROM</p>
+                            <p class="down-type">Google Play</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-2">
+                    <div class="Download-app">
+                        <div class="download-app-img">
+                            <img src="images/download/ios-download.png" alt="">
+                        </div>
+                        <div class="Downalod-app-text">
+                            <p class="down-from">DOWNLOAD FROM</p>
+                            <p class="down-type">Google Play</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="logo">
+                        <img src="images/footer/footer-logo.png" alt="White Logo" class="white-logo">
+                        <p>Aliquam orci nullam tempor sapien orci gravida donec enim ipsum porta justo at velna vitae auctor congue magna laoreet augue egestas</p>
+                        <img src="images/footer/follow-us.png" alt=" Follow US">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="contact-us">
+                        <ul>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="tutorial">
+                        <ul>
+                            <li><a href="#">Tutorial</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="customer-sup">
+                        <ul>
+                            <li><a href="#">Customer Support</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="terms-cond">
+                        <ul>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- ./row -->
+        </div><!-- ./contaienr -->
+    </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
