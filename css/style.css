@@ -181,6 +181,10 @@ h5.login-mode-title{
 .modal-footer img{
     width: 100%;
 }
+.modal-title{
+   font-size: 17px;
+
+}
 .modal-header p{
     margin-left: auto;
     color: #6E6E6E;
@@ -193,7 +197,7 @@ h5.login-mode-title{
     text-decoration: none;
 }
 .btn-login{
-    width: 90%;
+    width: 100%;
     background: #000;
     color: #fff;
     text-align: center;
@@ -201,6 +205,7 @@ h5.login-mode-title{
     height: 60px;
     border-radius: 10px;
     margin: 30px auto;
+    height: 80px;
 }
 .modal-footer{
     margin: auto;
@@ -262,6 +267,9 @@ border-radius: 50%;
 background: #000;
 margin-right: 2px;
 margin-top: 30px;
+}
+.dropdown-nofication{ 
+    width: 285px;
 }
 /* ============ 3- Home ============*/
 .home-container{
@@ -511,7 +519,7 @@ p.test-tag{
     height: 81px;
     border-radius: 50px;
     display: flex;
-   margin: auto;
+ 
    cursor: pointer;
 
 }
@@ -546,6 +554,9 @@ p.test-tag{
 }
 .Download-app img:hover{
         transform: translate(100px,0);
+}
+.Download-app-andr{
+    margin-left: auto;
 }
 /* ============ 10- Footer ============*/
 footer{

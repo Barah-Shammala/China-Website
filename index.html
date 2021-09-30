@@ -79,11 +79,11 @@
                                     <a class="nav-link dropdown-toggle nav-notf" href="notfication.html" id="navbardrop" data-toggle="dropdown">
                                         <i class="fa fa-bell notf"></i>
                                     </a>
-                                    <div class="dropdown-menu">
+                                    <div class="dropdown-menu dropdown-nofication">
                                         <p class="dropdown-title">NOTIFICATIONS</p>
                                         <p class="dropdown-new">New</p>
                                         <a class="dropdown-item dropdown-not" href="notfication.html">
-                                            <img src="images/header/Group 27209.png" alt="">
+                                            <div class="circle mr-1"></div>
                                             <div class="not-text">
                                                 <p>Numero esim added new blog <br>
                                                      lorem ipsum dolor sit  amet <br>, consectetur... </p>
@@ -95,7 +95,7 @@
                                         </a>
                                         <p class="dropdown-new">EARLIER</p>
                                         <a class="dropdown-item dropdown-not" href="notfication.html">
-                                            <img src="images/header/Group 27209.png" alt="">
+                                            <div class="circle mr-1"></div>
                                             <div class="not-text">
                                                 <p>Numero esim added new blog <br>
                                                      lorem ipsum dolor sit  amet <br>, consectetur... </p>
@@ -133,12 +133,12 @@
                             <i class="fa fa-unlock-alt form-icon"></i>
                             <input type="text" class="form-control" id="recipient-name" placeholder="Password">
                         </div>
-                        <a href="#" class="forget-link">Forget Your Password?</a>
+                        <a href="#" class="forget-link"  data-toggle="modal" data-target="#exampleModal3" data-whatever="@mdo">Forget Your Password?</a>
                         <button class="btn-login">Login</button>
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <p>New User? <span><a href="">Sign Up</a></span></p>
+                        <p>New User? <span><a href="" data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo">Sign Up</a></span></p>
                     </div>
                     </div>
                 </div>
@@ -180,6 +180,36 @@
                         </div>
                         </div>
                     </div>
+            </div>
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title login-mode-title" id="exampleModalLabel"> Email </h5>
+             
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                        <div class="form-group">
+                            <i class="fa fa-envelope form-icon"></i>
+                            <input type="text" class="form-control" id="recipient-name" placeholder="barah.fadel@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <i class="fa fa-unlock-alt form-icon"></i>
+                            <input type="text" class="form-control" id="recipient-name" placeholder="***********">
+                        </div>
+                        <a href="#" class="forget-link">Forget Your Password?</a>
+                        <button class="btn-login">Login</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <p>New User? <span><a href="" data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo">Sign Up</a></span></p>
+                    </div>
+                    </div>
+                </div>
             </div>
             <div class="container home-container">
                 <div class="row">
@@ -445,7 +475,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6 my-2">
-                    <div class="Download-app">
+                    <div class="Download-app Download-app-andr">
                         <div class="download-app-img">
                             <img src="images/download/android-download.png" alt="">
                         </div>
