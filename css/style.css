@@ -675,3 +675,202 @@ p.not-sun-header{
     display: block;
     margin-left: auto;
 }
+/* ============== FAQ Page =============== */
+.faq-head{
+    color: #fff;
+    font-size: 30px;
+    margin: 100px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+.faq-card{
+    display: flex;
+    align-items: center;
+}
+.dropdwon-faq{
+    margin: 50px auto;
+}
+.faq-card p{
+    font: 18px;
+    color: #fff;
+    margin-left: 5px;
+}
+.btn-group button{
+    background: #fff;
+    color: #6E6E6E;
+    padding: 15px 30px;
+}
+
+.faq-lastbtn button{
+    width: 300px;
+    height: 65px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+}
+.faq-lastbtn button.btn-monthly{
+    margin-left: auto;
+    display: block;
+}
+.virtua-number-text p{
+    color: #000;
+    font-size: 22px;
+    margin: 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.virtua-number-text ul li{
+    color: #6E6E6E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.how-work{
+    background: linear-gradient(to right,rgba(0,0,0,.9),rgba(43, 43, 43, 0.7),rgba(34, 34, 34, 0.4));
+
+}
+.how-work p.how-work-head{
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
+}
+.card-step{
+    background: #fff;
+    height: 350px;
+    border-radius: 10px;
+}
+.step-text{
+    text-align: center;
+    color: #fff;
+    margin:20px 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Faq-question .card-header{
+    background:#000;
+}
+.Faq-question .card-header button{
+    color: #fff;
+}
+.Faq-question .card-header button:hover{
+    text-decoration: none;
+}
+/* Blog Page */
+.header-home{
+    width:75%;
+    margin:100px auto;
+}
+.header-home-heading{
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.header-home .header-home-parg{
+    color: #fff;
+    font-size: 1.1175rem;
+    font-weight: 300;
+    text-align: center;
+}
+.header-blog{
+    background:url(../images/screen-0.jpg);
+}
+.blog-links{
+    border-bottom: 1px solid #bbbbbb;
+    margin: 1rem 0;
+    padding: 2rem 0;
+}
+.blog-links ul{
+    display: flex;
+}
+.blog-links ul li{
+    list-style:none;
+    margin:  0 1rem;
+}
+.blog-links ul li a{
+    text-transform: uppercase;
+    color:rgb(175, 174, 174);
+}
+.blog-links ul li a:hover{
+    color: #6E6E6E;
+    text-decoration: none;
+}
+/* Product Page */
+.product-header, .product-header .header-cover{
+    height: 80vh;
+}
+.local-regional{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.local,.regional {
+    color: #fff;
+   margin: 0 1rem;
+}
+.local-regional span{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.local i{
+    color: #ddd;
+}
+.local i:hover{
+    color: #6E6E6E;
+}
+.local-regional i{
+    font-size: 25px;
+    margin-right: .5rem;
+}
+.search-input input[type="search"]{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 15px;
+    margin: 3rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.man-image img{
+    width: 100%;
+    height: 100%;
+}
+.product-text{
+    color: #4e5155;
+}
+.product-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.product-text ul li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .5rem 0;
+}
+.data-word-card p{
+    color: #fff;
+}
+.eSIM-Data-Work{
+    background: linear-gradient(to right,rgba(0,0,0,.9),rgba(43, 43, 43, 0.7),rgba(34, 34, 34, 0.4));
+    font-family: Arial, Helvetica, sans-serif;
+}
+.data-work-title{
+    color: #fff;
+    text-align: center;
+}
+.data-word-card{
+    text-align: center;
+}
+.data-word-card img{
+    margin: 1rem 0;
+}
+.FAQs-Data-eSIM h2{
+    text-align: center;
+}
+.btn-dark a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-dark a:hover{
+    text-decoration: none;
+}
